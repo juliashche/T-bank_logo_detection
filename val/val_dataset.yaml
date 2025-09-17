@@ -1,0 +1,6 @@
+path: ../val
+train: images
+val: images
+nc: 1
+names:
+  0: logo
