@@ -30,9 +30,17 @@
 
 python val/val.py --weights weights/best.pt --images val/images --labels val/labels --out runs/val_results
 
-Метрики выводятся в консоль:
-
 Результаты работы модели с отрисоваными результатами детекции на валидационной выборке сохраняются в папку runs.
+
+Вывод в консоль:
+
+```text
+Метрики на валидационной выборке
+metrics/precision(B):   0.9671854590121123
+metrics/recall(B):      0.9357046030502474
+metrics/mAP50(B):       0.9870191102498957
+metrics/mAP50-95(B):    0.8885218131911088
+fitness:                0.8885218131911088
 
 
 
